@@ -17,10 +17,6 @@ h1 {
 
 .hover{
   transition: transform .2s;
-  margin:0 auto;
-  background-color: rgb(173, 173, 237);
-  border-radius: 10px;
-  border: 1px solid black;
 }
 .hover:hover{
   transform:scale(2.5);
