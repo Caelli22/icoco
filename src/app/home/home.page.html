@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>LABX2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title color="primary">LOG IN</ion-card-title>
+          </ion-card-header>
+            <ion-list>
+              <ion-item fill="outline">
+                <ion-label position="stacked">Email</ion-label>
+                <ion-input type="email" placeholder="john@doe.com"></ion-input>
+              </ion-item>
+              <br>
+              <ion-item fill="outline">
+                <ion-label position="stacked">Password</ion-label>
+                <ion-input type="password" placeholder="********"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-button>LOGIN&nbsp;<ion-icon name="arrow-forward-circle"></ion-icon></ion-button>
+              </ion-item>
+            </ion-list>
+        </ion-card>
+      </ion-col>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title color="primary">REGISTER</ion-card-title>
+          </ion-card-header>
+          <ion-list>
+            <ion-item>
+              <ion-icon name="person-circle-outline"></ion-icon>&nbsp;
+              <ion-input type="text" placeholder="Full name" fill="outline"></ion-input>
+            </ion-item>
+            <br>
+            <ion-item>
+              <ion-icon name="mail"></ion-icon>&nbsp;
+              <ion-input type="email" placeholder="john@doe.com" fill="outline"></ion-input>
+            </ion-item>
+            <br>
+            <ion-item>
+              <ion-icon name="key"></ion-icon>&nbsp;
+              <ion-input type="password" placeholder="*******" fill="outline"></ion-input>
+            </ion-item>
+            <br>
+            <ion-item>
+              <ion-icon name="male-female"></ion-icon>&nbsp;
+              <ion-select aria-label="gender" placeholder="Gender" style="width: 100%;">
+                <ion-select-option value="Male">Male</ion-select-option>
+                <ion-select-option value="Female">Female</ion-select-option>
+                <ion-select-option value="Others">Others</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-button>REGISTER&nbsp;<ion-icon name="arrow-forward-circle"></ion-icon></ion-button>
+            </ion-item>
+          </ion-list>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
